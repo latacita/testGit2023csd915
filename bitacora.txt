@@ -6,3 +6,9 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+1.	clone [Enlace del
+	repositorio]
+2.	---
+3.	add +
+	commit -m "Paso 03"
+4.	push

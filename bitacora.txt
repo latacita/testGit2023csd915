@@ -46,3 +46,10 @@
 	add bitacora.txt +
 	commit -m "Solucionar
 	conflictos paso 27"
+29.	add bitacora.txt +
+	commit -m "Paso 29"
+30.	tag Step29
+31.	push
+32.	checkout feature/Ticket222
+33.	merge develop -m "Paso 33"
+

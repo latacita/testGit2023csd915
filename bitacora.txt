@@ -18,3 +18,5 @@
 8.	checkout develop +
 	branch feature/Ticket220 +
 	checkout feature/Ticket220
+14.	stash +
+	checkout feature/Ticket220

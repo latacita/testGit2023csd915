@@ -6,9 +6,23 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
-1.	clone [Enlace del
+1.	clone [Enlace del	  
 	repositorio]
 2.	---
 3.	add +
 	commit -m "Paso 03"
 4.	push
+6.	add bitacora.txt +
+	commit -m "Paso 06"
+7.	branch develop
+8.	checkout develop +
+	branch feature/Ticket220 +
+	checkout feature/Ticket220
+14.	stash +
+	checkout feature/Ticket220
+18.	stash apply
+19.	add bitacora.txt
+	commit -m "Paso 19"
+20.	checkout develop
+21.	branch feature/Ticket222
+22.	checkout feature/220	    La fusión sería Fast-Forward

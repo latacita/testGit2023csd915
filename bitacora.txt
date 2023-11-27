@@ -12,3 +12,11 @@
 3.	add +
 	commit -m "Paso 03"
 4.	push
+10.	add bitacora.txt +
+	commit -m "Paso 10"
+11.	checkout develop
+12.	branch feature/Ticket221 +
+	checkout feature/Ticket221
+16.	add bitacora.txt +
+	commit -m "Paso 16"
+17.	checkout feature/Ticket221

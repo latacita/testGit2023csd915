@@ -34,4 +34,15 @@
 20.	checkout develop
 21.	branch feature/Ticket222
 22.	checkout feature/220	    La fusión sería Fast-Forward
-
+24.	add bitacora.txt +
+	commit -m "Paso 24"
+25.	checkout develop
+26.	merge feature/Ticket220
+	--no-ff -m "Paso 26"
+27.	merge feature/Ticket221
+	--no-ff -m "Paso 27"	    Ha sido necesario arreglar
+				    conflictos que surgieron tras
+				    esta fusión
+	add bitacora.txt +
+	commit -m "Solucionar
+	conflictos paso 27"

@@ -49,7 +49,8 @@
 29.	add bitacora.txt +
 	commit -m "Paso 29"
 30.	tag Step29
-31.	push
+31.	push --set-upstream
+	origin develop
 32.	checkout feature/Ticket222
 33.	merge develop -m "Paso 33"
 35.	add bitacora.txt +
@@ -60,3 +61,6 @@
 38.	checkout master
 39.	merge develop --no-ff
 	-m "Paso 39"
+				    Se ha realizado un segundo push final
+				    porque se olvidó añadir "--set-upstream
+				    origin develop" en el paso 31
